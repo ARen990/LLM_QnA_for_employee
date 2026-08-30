@@ -46,4 +46,20 @@ To run the system in an interactive loop (CLI), execute:
   ```bash
   python interactive_test.py
   ```
+
+## Example Outputs
+
+**1. ตัวอย่างคำถามเกี่ยวกับนโยบายการแต่งกาย**
+![Travel Policy Result](sceenshot_result/Q5_form_user.png)
+
+**2. ตัวอย่างคำถามเกี่ยวกับนโยบายการทำงานล่วงเวลา (OT)**
+![Fitness Benefit Result](sceenshot_result/Q6_form_user.png)
+
+**Terminal Execution Log:**
+> User Query: เบิกค่าที่พักสำหรับเดินทางไปต่างประเทศได้สูงสุดคืนละเท่าไหร่?
+> 
+> Keywords Searched: [ค่าที่พัก ต่างประเทศ]
+> 
+> Report Generator Output:
+> จากเอกสารนโยบาย สามารถเบิกค่าที่พักสำหรับการเดินทางต่างประเทศได้สูงสุด 5,000 บาทต่อคืน
     
